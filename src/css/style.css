@@ -15,10 +15,26 @@ body {
   display: flex;
 }
 
+.mt-30 {
+  margin-top: 30px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.grey {
+  color: grey;
+}
+
+.hr {
+  
+}
+
 /* MAIN  */
 
 main {
-  height: calc(100vh -100px);
+  height: calc(100vh - 100px);
   display: flex;
 }
 
@@ -26,6 +42,9 @@ main {
   height: 70px;
   background-color: #080B12;
   width: calc(100vw - 220px);
+  position: fixed;
+  top: 0;
+  right: 0;
 }
 
 #sidebar {
@@ -33,6 +52,7 @@ main {
   background-color: black;
   height: 100%;
   color: white;
+  padding: 20px 20px;
 }
 
 #content {
@@ -41,7 +61,7 @@ main {
   background-color: #141922;
   overflow-y: auto;
   color: white;
-  /* overflow: hidden; */
+  padding-top: 30px;
 }
 
 .btn-upgrade {
@@ -51,6 +71,30 @@ main {
   width: fit-content;
   border-radius: 30px;
   font-size: 12px;
+}
+
+.icon span {
+  margin-left: 5px;
+}
+
+.plus {
+  padding: 10px;
+  background-color: grey;
+  width: fit-content;
+  color: black;
+  font-size: 30px;
+}
+
+.margin-p p {
+  margin-bottom: 15px;
+}
+
+.icon-footer i {
+  border: 1px solid grey;
+  border-radius: 50%;
+  padding: 2px;
+  font-size: 8px;
+  vertical-align: middle;
 }
 
 
