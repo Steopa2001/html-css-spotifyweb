@@ -1,106 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="author" content="Stefan Moraru">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./src/css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="icon" href="https://static-00.iconduck.com/assets.00/spotify-icon-2048x2048-n3imyp8e.png" type="image/png">
-  <title>My Spotify</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Stefan Moraru" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="icon"
+      href="https://static-00.iconduck.com/assets.00/spotify-icon-2048x2048-n3imyp8e.png"
+      type="image/png"
+    />
+    <title>My Spotify</title>
+  </head>
+  <body>
+    <!-- HEADER  -->
+    <header></header>
 
-  <!-- HEADER  -->
-   <header></header>
-
-   <!-- MAIN   -->
+    <!-- MAIN   -->
     <main>
-
-      
-
       <div id="sidebar">
         <div class="logo-spotify">
-          <img src="./assets/img/logo.svg" alt="logo">
+          <img src="./assets/img/logo.svg" alt="logo" />
         </div>
         <div class="font-size">
-        <div class="icon-sidebar mt-20">
-        <div class="icon flex">
-          <i class="fa-solid fa-house"></i>
-        <div><span>Home</span></div>
-        </div>
-        <div class="icon flex grey">
-          <i class="fa-solid fa-magnifying-glass"></i>
-        <div><span>Cerca</span></div>
-        </div>
-        <div class="icon flex grey">
-        <i class="fa-solid fa-book"></i>
-        <div><span>La tua libreria</span></div>
-        </div>
-        </div>
-
-        <div class="playlist mt-20">
-          <span>PLAYLIST</span>
-          <div class="play flex mt-10">
-          <div class="plus">
-            <i class="fa-solid fa-plus"></i>
-          </div>
-          <span class="grey bold">Crea Playlist</span>
-          </div>
-          <div class="nome-playlist mt-20 grey">
-            <div class="margin-p">
-            <p>Nome Playlist</p>
-            <p>Nome Playlist</p>
-            <p>Nome Playlist</p>
-            <p>Nome Playlist</p>
-            <p>Nome Playlist</p>
-            <p>Nome Playlist</p>
-            <p>Nome Playlist</p>
+          <div class="icon-sidebar mt-20">
+            <div class="icon flex">
+              <i class="fa-solid fa-house"></i>
+              <div><span>Home</span></div>
+            </div>
+            <div class="icon flex grey">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <div><span>Cerca</span></div>
+            </div>
+            <div class="icon flex grey">
+              <i class="fa-solid fa-book"></i>
+              <div><span>La tua libreria</span></div>
             </div>
           </div>
-        </div>
 
-        <div class="sidebar-footer">
-          <div class="flex grey mt-135">
-          <div class="icon-footer">
-            <i class="fa-solid fa-arrow-down"></i>
+          <div class="playlist mt-20">
+            <span>PLAYLIST</span>
+            <div class="play flex mt-10">
+              <div class="plus">
+                <i class="fa-solid fa-plus"></i>
+              </div>
+              <span class="grey bold">Crea Playlist</span>
             </div>
-          <span class="ml-10">Installa app</span>
+            <div class="nome-playlist mt-20 grey">
+              <div class="margin-p">
+                <p>Nome Playlist</p>
+                <p>Nome Playlist</p>
+                <p>Nome Playlist</p>
+                <p>Nome Playlist</p>
+                <p>Nome Playlist</p>
+                <p>Nome Playlist</p>
+                <p>Nome Playlist</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="sidebar-footer">
+            <div class="flex grey mt-135">
+              <div class="icon-footer">
+                <i class="fa-solid fa-arrow-down"></i>
+              </div>
+              <span class="ml-10">Installa app</span>
+            </div>
+          </div>
+          <div>
+            <hr class="separator mt-10" />
+          </div>
+          <div class="user flex mt-20">
+            <div class="icon-user grey"><i class="fa-solid fa-user"></i></div>
+            <div class="user-name ml-10">John Doe</div>
           </div>
         </div>
-        <div>
-        <hr class="separator mt-10"> 
-        </div>
-        <div class="user flex mt-20">
-        <div class="icon-user grey"><i class="fa-solid fa-user"></i></div>
-        <div class="user-name ml-10">John Doe</div>
-        </div>
-        </div>
-
       </div>
-
 
       <div id="content">
         <div id="header">
           <div class="header-btn flex">
-          <div class="btn-upgrade"><a href="#" class="decoration-none white">EFFETTUA L'UPGRADE</a></div>
+            <div class="btn-upgrade">
+              <a href="#" class="decoration-none white">EFFETTUA L'UPGRADE</a>
+            </div>
           </div>
         </div>
 
         <div class="main-menu mt-15">
           <div class="menu">
             <div class="ul-list grey bold">
-            <ul class="flex justify-center">
-              <li>IN EVIDENZA</li>
-              <li>PODCAST</li>
-              <li>CLASSIFICHE</li>
-              <li>GENERI E MOOD</li>
-              <li>NUOVE USCITE</li>
-              <li>SCOPRI</li>
-            </ul>
+              <ul class="flex justify-center">
+                <li>IN EVIDENZA</li>
+                <li>PODCAST</li>
+                <li>CLASSIFICHE</li>
+                <li>GENERI E MOOD</li>
+                <li>NUOVE USCITE</li>
+                <li>SCOPRI</li>
+              </ul>
             </div>
           </div>
-        </div> 
+        </div>
 
         <div class="recently-played">
           <div class="text-played">
@@ -110,169 +116,133 @@
 
         <div class="container-img">
           <div class="flex flex-wrap gap-10 mt-30">
-          
             <div class="col-12-5">
               <div class="box">
-                 <img src="./assets/img/metal_lifting.jpg" alt="img">
-                 <div class="text-metal">
-                 <div class="mt-10">
-                 <span class="bold title-img-size">Heavy Metal</span>
-                 </div> 
-                 <div class="size-span grey mt-10 bold">
-                 <span>Subtitle</span>
-                 </div>
-                 </div>
-              </div>
-            </div>
-          
-          
-            <div class="col-12-5">
-              <div class="box">
-                 <img src="./assets/img/stranger.jpeg" alt="img"> 
-                    <div class="text-metal">
-                 <div class="mt-10">
-                 <span class="bold title-img-size">Stranger Things, Vol.1 &#40;a Netflix Original Series Soundtrack&#41;</span>
-                 </div> 
-                 <div class="size-span grey mt-10 bold">
-                 <span>Kyle Dixon & Michael Stein</span>
-                 </div>
-                 </div>
-              </div>
-            </div>
-         
-          
-            <div class="col-12-5">
-              <div class="box">
-                 <img src="./assets/img/aquietplace.jpeg" alt="img">
+                <img src="./assets/img/metal_lifting.jpg" alt="img" />
                 <div class="text-metal">
-                 <div class="mt-10">
-                 <span class="bold title-img-size">A quiet place</span>
-                 </div> 
-                 <div class="size-span grey mt-10 bold">
-                 <span>Subtitle</span>
-                 </div>
-                 </div>
+                  <div class="mt-10">
+                    <span class="bold title-img-size">Heavy Metal</span>
+                  </div>
+                  <div class="size-span grey mt-10 bold">
+                    <span>Subtitle</span>
+                  </div>
+                </div>
               </div>
             </div>
-         
-          
+
             <div class="col-12-5">
               <div class="box">
-                 <img src="./assets/img/split.jpeg" alt="img"> 
+                <img src="./assets/img/stranger.jpeg" alt="img" />
                 <div class="text-metal">
-                 <div class="mt-10">
-                 <span class="bold title-img-size">Split</span>
-                 </div> 
-                 <div class="size-span grey mt-10 bold">
-                 <span>Subtitle</span>
-                 </div>
-                 </div>
+                  <div class="mt-10">
+                    <span class="bold title-img-size"
+                      >Stranger Things, Vol.1 &#40;a Netflix Original Series
+                      Soundtrack&#41;</span
+                    >
+                  </div>
+                  <div class="size-span grey mt-10 bold">
+                    <span>Kyle Dixon & Michael Stein</span>
+                  </div>
+                </div>
               </div>
             </div>
-         
-          
+
             <div class="col-12-5">
               <div class="box">
-                 <img src="./assets/img/cure.jpeg" alt="img">
-                     <div class="text-metal">
-                 <div class="mt-10">
-                 <span class="bold title-img-size">A cure for wellness</span>
-                 </div> 
-                 <div class="size-span grey mt-10 bold">
-                 <span>Subtitle</span>
-                 </div>
-                 </div> 
+                <img src="./assets/img/aquietplace.jpeg" alt="img" />
+                <div class="text-metal">
+                  <div class="mt-10">
+                    <span class="bold title-img-size">A quiet place</span>
+                  </div>
+                  <div class="size-span grey mt-10 bold">
+                    <span>Subtitle</span>
+                  </div>
+                </div>
               </div>
             </div>
-         
-          
+
             <div class="col-12-5">
               <div class="box">
-                 <img src="./assets/img/sinister.jpeg" alt="img">
-                     <div class="text-metal">
-                 <div class="mt-10">
-                 <span class="bold title-img-size">Sinister</span>
-                 </div> 
-                 <div class="size-span grey mt-10 bold">
-                 <span>Subtitle</span>
-                 </div>
-                 </div> 
+                <img src="./assets/img/split.jpeg" alt="img" />
+                <div class="text-metal">
+                  <div class="mt-10">
+                    <span class="bold title-img-size">Split</span>
+                  </div>
+                  <div class="size-span grey mt-10 bold">
+                    <span>Subtitle</span>
+                  </div>
+                </div>
               </div>
             </div>
-            </div>
 
-
-
-            <div class="creato-john">
-              <div class="text-played">
-                <h1 class="mt-20">Creato per John Doe</h1>
-                <p class="grey font-size bold mt-10">Più ascolti, più accurati saranno i suggerimenti.</p>
+            <div class="col-12-5">
+              <div class="box">
+                <img src="./assets/img/cure.jpeg" alt="img" />
+                <div class="text-metal">
+                  <div class="mt-10">
+                    <span class="bold title-img-size">A cure for wellness</span>
+                  </div>
+                  <div class="size-span grey mt-10 bold">
+                    <span>Subtitle</span>
+                  </div>
+                </div>
               </div>
             </div>
-            
-            
-            <div class="container-john gap-10 flex">
-            
+
+            <div class="col-12-5">
+              <div class="box">
+                <img src="./assets/img/sinister.jpeg" alt="img" />
+                <div class="text-metal">
+                  <div class="mt-10">
+                    <span class="bold title-img-size">Sinister</span>
+                  </div>
+                  <div class="size-span grey mt-10 bold">
+                    <span>Subtitle</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="creato-john">
+            <div class="text-played">
+              <h1 class="mt-20">Creato per John Doe</h1>
+              <p class="grey font-size bold mt-10">
+                Più ascolti, più accurati saranno i suggerimenti.
+              </p>
+            </div>
+          </div>
+
+          <div class="container-john gap-10 flex">
             <div class="col-john mt-30">
               <div class="box">
-                <img src="./assets/img/radar.jpeg" alt="radar">
-                     <div class="text-metal">
-                 <div class="mt-10">
-                 <span class="bold title-img-size">Release Radar</span>
-                 </div>
-                 </div> 
+                <img src="./assets/img/radar.jpeg" alt="radar" />
+                <div class="text-metal">
+                  <div class="mt-10">
+                    <span class="bold title-img-size">Release Radar</span>
+                  </div>
+                </div>
               </div>
             </div>
 
-             <div class="col-john mt-30">
+            <div class="col-john mt-30">
               <div class="box">
-                <img src="./assets/img/mixdaily.jpeg" alt="mix-daily">
-                     <div class="text-metal">
-                 <div class="mt-10">
-                 <span class="bold title-img-size">Daily Mix 1</span>
-                 </div>
-                 </div> 
+                <img src="./assets/img/mixdaily.jpeg" alt="mix-daily" />
+                <div class="text-metal">
+                  <div class="mt-10">
+                    <span class="bold title-img-size">Daily Mix 1</span>
+                  </div>
+                </div>
               </div>
             </div>
-
-            </div>
-
-
-            </div>
-<!--           
-            <div class="col-12-5">
-              <div class="box">
-                 <img src="./assets/img/radar.jpeg" alt="img"> 
-                     <div class="text-metal">
-                 <div class="mt-10">
-                 <span class="bold title-img-size">Release Radar</span>
-                 </div> 
-                 </div>
-              </div>
-            </div>
-          
-          
-            <div class="col-12-5">
-              <div class="box">
-                 <img src="./assets/img/mixdaily.jpeg" alt="img"> 
-                     <div class="text-metal">
-                 <div class="mt-10">
-                 <span class="bold title-img-size">Daily Mix 1</span>
-                 </div> 
-                 </div>
-              </div>
-            </div> -->
-            
-            </div>
-         
-      
+          </div>
+        </div>
 
 
+      </div>
     </main>
 
-
     <!-- FOOTER  -->
-     <footer></footer>
-
-</body>
+    <footer></footer>
+  </body>
 </html>
