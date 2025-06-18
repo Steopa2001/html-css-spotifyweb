@@ -51,7 +51,21 @@ body {
   color: white;
 }
 
+.mt-15 {
+  margin-top: 15px;
+}
 
+.justify-center {
+  justify-content: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.gap-10 {
+  gap: 10px;
+}
 
 /* MAIN  */
 
@@ -89,6 +103,8 @@ main {
   overflow-y: auto;
   color: white;
   padding-top: 70px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .btn-upgrade {
@@ -133,6 +149,24 @@ main {
   font-size: 10px;
 }
 
+.ul-list ul li {
+  margin: 0 10px;
+  list-style-type: none;
+}
+
+.text-played h1 {
+  font-size: 1.2rem;
+}
+
+/* IMG COL */
+
+.col-12-5 {
+  width: calc(100% / 6 -10px);
+}
+
+.box img {
+  width: 100%;
+}
 
 
 
