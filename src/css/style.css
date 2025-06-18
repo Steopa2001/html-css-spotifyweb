@@ -186,6 +186,18 @@ main {
 }
 
 
+.col-john .text-metal {
+  text-align: center;
+}
+
+.col-john {
+  width: calc(100% / 6 - 20px);
+}
+
+.col-john img {
+  width: 100%;
+}
+
 
 /* FOOTER  */
 
