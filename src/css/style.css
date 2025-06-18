@@ -3,3 +3,61 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* UTILITY  */
+
+.flex {
+  display: flex;
+}
+
+/* MAIN  */
+
+main {
+  height: calc(100vh -100px);
+  display: flex;
+}
+
+#header {
+  height: 70px;
+  background-color: #080B12;
+  width: calc(100vw - 220px);
+}
+
+#sidebar {
+  width: 220px;
+  background-color: black;
+  height: 100%;
+  color: white;
+}
+
+#content {
+  height: 100%;
+  width: calc(100vw - 220px);
+  background-color: #141922;
+  overflow-y: auto;
+  color: white;
+  /* overflow: hidden; */
+}
+
+.btn-upgrade {
+  padding: 10px 20px;
+  background-color: #080B12;
+  border: 1px solid white;
+  width: fit-content;
+  border-radius: 30px;
+  font-size: 12px;
+}
+
+
+
+/* FOOTER  */
+
+footer {
+  height: 100px;
+  background-color: #202020;
+}
