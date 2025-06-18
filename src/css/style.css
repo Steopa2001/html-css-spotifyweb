@@ -64,7 +64,11 @@ body {
 }
 
 .gap-10 {
-  gap: 10px;
+  gap: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
 }
 
 /* MAIN  */
@@ -155,17 +159,26 @@ main {
 }
 
 .text-played h1 {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 /* IMG COL */
 
+
 .col-12-5 {
-  width: calc(100% / 6 -10px);
+  width: calc(100% / 6 - 20px);
 }
 
-.box img {
+.col-12-5 img {
   width: 100%;
+}
+
+.col-12-5 .text-metal {
+  text-align: center;
+}
+
+.col-12-5 .size-span {
+  font-size: 12px;
 }
 
 
