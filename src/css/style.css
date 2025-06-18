@@ -15,8 +15,8 @@ body {
   display: flex;
 }
 
-.mt-30 {
-  margin-top: 30px;
+.mt-20 {
+  margin-top: 20px;
 }
 
 .ml-10 {
@@ -33,6 +33,14 @@ body {
 
 .font-size {
   font-size: 12px;
+}
+
+.mt-120 {
+  margin-top: 120px;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 
@@ -83,15 +91,19 @@ main {
 }
 
 .plus {
-  padding: 10px;
+  padding: 0 5px;
   background-color: grey;
   width: fit-content;
   color: black;
   font-size: 30px;
 }
 
+.icon-sidebar .icon {
+  margin-bottom: 5px;
+}
+
 .margin-p p {
-  margin-bottom: 15px;
+  margin-bottom: 8px;
 }
 
 .icon-footer i {
@@ -101,7 +113,6 @@ main {
   font-size: 8px;
   vertical-align: middle;
 }
-
 
 
 /* FOOTER  */
