@@ -225,7 +225,9 @@ footer {
 }
 
 .container-footer {
-  padding: 15px 10px; 
+  padding-top: 10px; 
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .footer-left {
@@ -252,7 +254,82 @@ footer {
 
 .player-controller {
   display: flex;
-  align-items: center;
-  justify-content: center;
   width: 70%;
+  align-items: center;
+  position: relative;
+}
+
+.player-bar {
+  width: 40%;
+  background-color: grey;
+  height: 2.5px;
+  border-radius: 5px;
+  margin: 0px 20px;
+  position: relative;
+  margin-top: 30px;
+}
+
+.player-time {
+  margin-top: 30px;
+}
+
+.elapsed-time {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: silver;
+  height: 100%;
+  width: 60%;
+  border-radius: 5px;
+} 
+
+ .controller-point {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  display: none;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 15px;
+  background-color: silver;
+  border-radius: 50%;
+  border: 1px solid black;
+} 
+
+.player-controller:hover .elapsed-time {
+  background-color: rgb(75, 240, 75);
+}
+
+.player-controller:hover .controller-point {
+  display: block;
+}
+
+.invert {
+  transform: scale(-1);
+}
+
+.icon-music {
+  display: flex;
+  color: white;
+  position: absolute;
+  top: 5px;
+  left: 180px;
+}
+
+.icon-music i {
+  margin: 0 10px;
+}
+
+.player-controller-right {
+  width: 40%;
+}
+
+.player-bar-right {
+  width: 40%;
+  background-color: grey;
+  height: 2.5px;
+  border-radius: 5px;
+  margin: 0px 20px;
+  position: relative;
+  margin-top: 30px;
 }
