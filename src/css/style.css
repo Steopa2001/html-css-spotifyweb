@@ -89,6 +89,7 @@ body {
 
 
 
+
 /* MAIN  */
 
 main {
@@ -257,6 +258,7 @@ footer {
   width: 70%;
   align-items: center;
   position: relative;
+  margin-left: 240px;
 }
 
 .player-bar {
@@ -313,23 +315,65 @@ footer {
   color: white;
   position: absolute;
   top: 5px;
-  left: 180px;
+  left: 130px;
 }
 
 .icon-music i {
   margin: 0 10px;
 }
 
+.footer-right .icon-right i {
+  margin: 0 10px;
+  margin-top: 30px;
+}
+
+.icon-right {
+  font-size: 12px;
+}
+
 .player-controller-right {
-  width: 40%;
+  width: 100%;
 }
 
 .player-bar-right {
-  width: 40%;
+  width: 100px;
   background-color: grey;
   height: 2.5px;
   border-radius: 5px;
-  margin: 0px 20px;
   position: relative;
-  margin-top: 30px;
+  margin-top: 35px;
 }
+
+.elapsed-time-right {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: silver;
+  height: 100%;
+  width: 40%;
+  border-radius: 5px;
+}
+
+.controller-point-right {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  display: none;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 15px;
+  background-color: silver;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.player-controller-right:hover .elapsed-time-right {
+  background-color: rgb(75, 240, 75);
+}
+
+.player-controller-right:hover .controller-point-right {
+  display: block;
+}
+
+
+
