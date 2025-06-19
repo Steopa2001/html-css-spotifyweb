@@ -119,6 +119,33 @@ main {
   padding: 20px 0px;
 }
 
+#sidebar .icon:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.play .plus:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.play span:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.nome-playlist p:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.hover:hover {
+  color: white;
+  cursor: pointer;
+}
+
+
+
 .pl-20 {
   padding-left: 20px;
 }
@@ -154,6 +181,11 @@ main {
   width: fit-content;
   border-radius: 30px;
   font-size: 12px;
+}
+
+.btn-upgrade:hover {
+  font-size: 14px;
+  cursor: pointer;
 }
 
 .icon img{
@@ -204,6 +236,12 @@ main {
 .menu .ul-list li {
   font-size: 10px;
 }
+
+.menu .ul-list li:hover {
+  color: white;
+  cursor: pointer;
+}
+
 
 .ul-list ul li {
   margin: 0 10px;
@@ -264,6 +302,17 @@ footer {
   padding-right: 15px;
 }
 
+.text-img-footer span:hover {
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.left-icon i:hover {
+  color: white;
+  cursor: pointer;
+}
+
 .footer-left {
   height: 60px;
   width: 400px;
@@ -276,6 +325,11 @@ footer {
 
 .text-img-footer {
   vertical-align: middle;
+}
+
+
+.icon-music .stop-start:hover {
+  font-size: 20px;
 }
 
 .left-icon {
@@ -291,7 +345,7 @@ footer {
   width: 70%;
   align-items: center;
   position: relative;
-  margin-left: 240px;
+  margin-left: 250px;
 }
 
 .player-bar {
@@ -333,6 +387,7 @@ footer {
 
 .player-controller:hover .elapsed-time {
   background-color: rgb(75, 240, 75);
+  cursor: pointer;
 }
 
 .player-controller:hover .controller-point {
@@ -348,11 +403,15 @@ footer {
   color: white;
   position: absolute;
   top: 5px;
-  left: 130px;
+  left: 120px;
 }
 
 .icon-music i {
   margin: 0 10px;
+}
+
+.icon-music i:hover {
+  cursor: pointer;
 }
 
 .footer-right .icon-right i {
@@ -401,6 +460,7 @@ footer {
 }
 
 .player-controller-right:hover .elapsed-time-right {
+  cursor: pointer;
   background-color: rgb(75, 240, 75);
 }
 
