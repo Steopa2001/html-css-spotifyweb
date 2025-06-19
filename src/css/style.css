@@ -267,6 +267,34 @@ main {
   text-align: center;
 }
 
+.relative {
+  position: relative;
+}
+
+ .overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+
+.card .overlay:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+
+.overlay i {
+  font-size: 50px;
+}
+
 .col-12-5 .size-span {
   font-size: 12px;
 }
