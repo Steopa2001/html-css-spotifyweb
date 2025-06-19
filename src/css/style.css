@@ -119,6 +119,11 @@ main {
   padding: 20px 20px;
 }
 
+.playlist span {
+ margin-top: 10px;
+ margin-left: 5px;
+}
+
 #content {
   height: 100%;
   width: calc(100vw - 220px);
@@ -139,8 +144,24 @@ main {
   font-size: 12px;
 }
 
+.icon img{
+  width: 15px;
+
+}
+
+.user img {
+  width: 15px;
+  background-color: grey;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
 .icon span {
   margin-left: 5px;
+}
+
+.icon-footer img {
+  width: 15px;
 }
 
 .plus {
