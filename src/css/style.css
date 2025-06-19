@@ -75,6 +75,20 @@ body {
   font-size: 15px;
 }
 
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.ml-50 {
+  margin-left: 50px;
+}
+
+
+
 /* MAIN  */
 
 main {
@@ -198,10 +212,47 @@ main {
   width: 100%;
 }
 
+.cont-border-radius img {
+  border-radius: 50%;
+}
+
 
 /* FOOTER  */
 
 footer {
   height: 80px;
   background-color: #202020;
+}
+
+.container-footer {
+  padding: 15px 10px; 
+}
+
+.footer-left {
+  height: 60px;
+  width: 400px;
+}
+
+.footer-left img {
+  width: 50px;
+  vertical-align: middle;
+}
+
+.text-img-footer {
+  vertical-align: middle;
+}
+
+.left-icon {
+  align-items: center;
+}
+
+.left-icon i {
+  color: grey;
+}
+
+.player-controller {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
 }
