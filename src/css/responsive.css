@@ -3,7 +3,7 @@
 /* MOBILE XS  */
 
 
-@media all and (min-width:430px) {
+@media all and (min-width:550px) {
 
 
   #sidebar {
@@ -19,7 +19,7 @@
   #sidebar .logo-small {
     display: block;
     width: 18px;
-    margin-left: 18px;
+    margin-left: 16px;
   }
 
   .icon-sidebar {
@@ -74,6 +74,11 @@
     z-index: 1;
   }
 
+ .padding-left-16 {
+  padding-left: 18px;
+ }
+
+
   .main-menu ul {
     flex-wrap: wrap;
   }
@@ -90,7 +95,7 @@
     width: calc(100% / 2 - 20px);
   }
 
-  /* FOOTER */
+  /* FOOTER (550px)*/
 
   .player-bar {
     width: 30%;
@@ -131,6 +136,8 @@
   
   #sidebar .logo {
     display: block;
+    width: 180px;
+    margin: 10px;
   }
 
   #sidebar .logo-small {
@@ -191,10 +198,70 @@
 
 /* MD SCREEN  */
 
-@media all and (width:770px) {
+@media all and (min-width:770px) {
 
-  .logo {
-    width: 20%;
+  #sidebar .logo {
+    width: 170px;
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+
+  #header {
+    width: calc(100vw - 260px);
+  }
+
+   .col-12-5 {
+    width: calc(100% / 4 - 20px);
+  }
+
+  .footer-left .icon-left {
+    display: flex;
+  }
+
+}
+
+/* LG SCREEN  */
+
+@media all and (min-width:992px) {
+
+  .col-12-5 {
+    width: calc(100% / 6 - 20px);
+  }
+
+  #sidebar {
+    width: 220px;
+  }
+
+  #header {
+    width: calc(100vw - 195px);
+  }
+
+  
+  .player-bar-right {
+    width: 150px;
+  }
+
+  .player-bar {
+    width: 50%;
+  }
+
+}
+
+
+/* HEIGHT-350  */
+
+@media all and (max-height:350px) {
+
+  .playlist {
+    display: none;
+  }
+
+  .footer-side {
+    display: none;
+  }
+
+  #sidebar {
+    z-index: -1;
   }
 
 }
