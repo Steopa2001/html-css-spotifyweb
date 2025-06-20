@@ -322,19 +322,18 @@ main {
 footer {
   height: 80px;
   background-color: #202020;
+  padding: 0 15px;
 }
 
-/* LEFT */
+/* LEFT  FOOTER*/
 
 .footer-left {
-  background-color: lightblue;
   width: 20%;
   height: 80px;
 }
 
 
 .footer-right {
-    background-color: lightblue;
   width: 20%;
   height: 80px;
 }
@@ -347,11 +346,14 @@ footer {
   align-items: center;
 }
 
+.icon-left :nth-last-child(1) {
+  margin-left: 10px;
+}
 
-/* CENTER  */
+
+/* CENTER  FOOTER */
 
 .icon-music {
-  background-color: orange;
   width: 60%;
   height: 80px;
 }
@@ -362,16 +364,12 @@ footer {
   bottom: 7px;
 }
 
-.icon-left :nth-last-child(1) {
-  margin-left: 10px;
-}
-
 .container-footer .icon-player {
   justify-content: center;
 }
+
 .icon-player i {
-  margin-left: 10px;
-  margin-top: 15px;
+  margin: 15px 10px 0 10px;
 }
 
 .player-controller-time {
@@ -420,194 +418,86 @@ footer {
 }
 
 
-
-
-
-
-
-
-
-
-
-/* footer .container-footer {
-  display: flex;
-  justify-content: space-between;
-}
-
-.container-footer {
-  padding-top: 10px; 
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.text-img-footer span:hover {
-  color: white;
-  cursor: pointer;
-  text-decoration: underline;
-}
-
-.left-icon i:hover {
-  color: white;
-  cursor: pointer;
-}
-
-.footer-left {
-  height: 60px;
-  width: 400px;
-}
-
-.footer-left img {
-  width: 50px;
-  vertical-align: middle;
-}
-
-.text-img-footer {
-  vertical-align: middle;
-}
-
-
-.icon-music .stop-start:hover {
-  font-size: 20px;
-}
-
-.left-icon {
-  align-items: center;
-}
-
-.left-icon i {
-  color: grey;
-}
- */
-
-
-
-/* .player-controller {
-  display: flex;
-  width: 70%;
-  align-items: center;
-  position: relative;
-  margin-left: 250px;
-}
-
-.player-bar {
-  width: 40%;
-  background-color: grey;
-  height: 2.5px;
-  border-radius: 5px;
-  margin: 0px 20px;
-  position: relative;
-  margin-top: 30px;
-}
-
-.player-time {
-  margin-top: 30px;
-}
-
-.elapsed-time {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: silver;
-  height: 100%;
-  width: 60%;
-  border-radius: 5px;
-} 
-
- .controller-point {
-  position: absolute;
-  top: 50%;
-  right: 0;
-  display: none;
-  transform: translateY(-50%);
-  width: 15px;
-  height: 15px;
-  background-color: silver;
-  border-radius: 50%;
-  border: 1px solid black;
-} 
-
-.player-controller:hover .elapsed-time {
-  background-color: rgb(75, 240, 75);
-  cursor: pointer;
-}
-
-.player-controller:hover .controller-point {
-  display: block;
-}
-
-.invert {
-  transform: scale(-1);
-}
-
-.icon-music {
-  display: flex;
-  color: white;
-  position: absolute;
-  top: 5px;
-  left: 120px;
-}
-
-.icon-music i {
-  margin: 0 10px;
-}
-
-.icon-music i:hover {
-  cursor: pointer;
-}
-
-.footer-right .icon-right i {
-  margin: 0 10px;
-  margin-top: 30px;
-}
-
-.icon-right {
-  font-size: 12px;
-}
+/* RIGHT FOOTER */
 
 .player-controller-right {
-  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .player-bar-right {
-  width: 100px;
+  width: 150px;
+  height: 5px;
+  border-radius: 10px;
   background-color: grey;
-  height: 2.5px;
-  border-radius: 5px;
+  margin: 0 10px;
   position: relative;
-  margin-top: 35px;
 }
 
 .elapsed-time-right {
   position: absolute;
-  top: 0;
-  left: 0;
   background-color: silver;
   height: 100%;
-  width: 40%;
-  border-radius: 5px;
+  width: 20%;
+  border-radius: 10px;
 }
 
 .controller-point-right {
   position: absolute;
   top: 50%;
   right: 0;
-  display: none;
   transform: translateY(-50%);
   width: 15px;
   height: 15px;
-  background-color: silver;
+  background-color: silver;  
   border-radius: 50%;
   border: 1px solid black;
+  display: none;
 }
 
-.player-controller-right:hover .elapsed-time-right {
+.elapsed-time-right:hover {
+  background-color: rgb(5, 228, 5);
   cursor: pointer;
-  background-color: rgb(75, 240, 75);
 }
 
-.player-controller-right:hover .controller-point-right {
+.elapsed-time-right:hover .controller-point-right {
   display: block;
 }
 
+.footer-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
 
- */
+.icon-footer i{
+  font-size: 15px;
+  border: none;
+  margin: 0 5px;
+}
+
+.footer-left span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: white;
+}
+
+.icon-left i:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.icon-music i:hover {
+  cursor: pointer;
+}
+
+.icon-footer i:hover {
+  cursor: pointer;
+}
+
+.footer-left h5:hover {
+  cursor: pointer;
+}
+.footer-left img:hover {
+  cursor: pointer;
+}
