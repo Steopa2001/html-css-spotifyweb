@@ -324,6 +324,116 @@ footer {
   background-color: #202020;
 }
 
+/* LEFT */
+
+.footer-left {
+  background-color: lightblue;
+  width: 20%;
+  height: 80px;
+}
+
+
+.footer-right {
+    background-color: lightblue;
+  width: 20%;
+  height: 80px;
+}
+
+.footer-left img {
+  width: 50px;
+}
+
+.container-footer .footer-left {
+  align-items: center;
+}
+
+
+/* CENTER  */
+
+.icon-music {
+  background-color: orange;
+  width: 60%;
+  height: 80px;
+}
+
+.stop-start i{
+  font-size: 1.8rem;
+  position: relative;
+  bottom: 7px;
+}
+
+.icon-left :nth-last-child(1) {
+  margin-left: 10px;
+}
+
+.container-footer .icon-player {
+  justify-content: center;
+}
+.icon-player i {
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.player-controller-time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.player-bar {
+  width: 50%;
+  height: 5px;
+  border-radius: 10px;
+  background-color: grey;
+  margin: 0 10px;
+  position: relative;
+}
+
+.elapsed-time {
+  position: absolute;
+  background-color: silver;
+  height: 100%;
+  width: 35%;
+  border-radius: 10px;
+}
+
+.controller-point {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 15px;
+  background-color: silver;  
+  border-radius: 50%;
+  border: 1px solid black;
+  display: none;
+}
+
+.elapsed-time:hover {
+  background-color: rgb(5, 228, 5);
+  cursor: pointer;
+}
+
+.elapsed-time:hover .controller-point {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* footer .container-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
 .container-footer {
   padding-top: 10px; 
   padding-left: 15px;
@@ -367,8 +477,11 @@ footer {
 .left-icon i {
   color: grey;
 }
+ */
 
-.player-controller {
+
+
+/* .player-controller {
   display: flex;
   width: 70%;
   align-items: center;
@@ -497,4 +610,4 @@ footer {
 }
 
 
-
+ */
