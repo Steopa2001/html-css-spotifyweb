@@ -3,11 +3,11 @@
 /* MOBILE XS  */
 
 
-@media all and (min-width:550px) {
+@media all and (min-width:320px) {
 
 
   #sidebar {
-    width: 50px;
+    width: 55px;
     padding: 5px 0;
   }
 
@@ -67,10 +67,72 @@
   }
 
   #header {
-    width: calc(100vw - 45px);
+    width: calc(100vw - 50px);
   }
 
   .main-menu .menu {
+  }
+
+  .main-menu .menu li {
+  }
+
+  .col-12-5 {
+    width: calc(100% / 2 - 20px);
+  }
+
+  /* FOOTER */
+
+  .player-bar {
+    width: 30%;
+  }
+
+  .footer-left img {
+    width: 40px;
+  }
+
+  .footer-left .icon-left {
+    margin: 0;
+  }
+
+
+  .player-bar-right {
+    width: 60px;
+  }
+
+  .footer-left .icon-left .cuore {
+    margin-left: 10px;
+  } 
+
+  .footer-right .icon-footer {
+    display: flex;
+  }
+
+  .footer-right .icon-footer i {
+    font-size: 15px;
+    margin: 0 1px;
+  }
+
+}
+
+
+/* MOBILE SMALL */
+
+@media all and (min-width:576px) {
+  
+  #sidebar .logo {
+    display: block;
+  }
+
+  #sidebar .logo-small {
+    display: none;
+  }
+
+  #sidebar {
+    width: 400px;
+  }
+
+    #header {
+    width: calc(100vw - 231px);
   }
 
 }
