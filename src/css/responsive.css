@@ -3,12 +3,13 @@
 /* MOBILE XS  */
 
 
-@media all and (min-width:320px) {
+@media all and (min-width:430px) {
 
 
   #sidebar {
     width: 55px;
     padding: 5px 0;
+    position: relative;
   }
 
   #sidebar .logo {
@@ -53,8 +54,9 @@
     display: none;
   }
 
-  #sidebar .sidebar-footer img {
-    margin-top: 750px;
+  #sidebar .footer-side {
+    position: absolute;
+    bottom: 20px;
   }
 
   #sidebar .user img {
@@ -68,13 +70,21 @@
 
   #header {
     width: calc(100vw - 50px);
+    position: fixed;
+    z-index: 1;
   }
 
-  .main-menu .menu {
+  .main-menu ul {
+    flex-wrap: wrap;
   }
 
-  .main-menu .menu li {
+  .main-menu ul li {
+    margin-bottom: 30px;
   }
+
+   .main-menu ul:nth-last-child(1) {
+    margin-top: 10px;
+   }
 
   .col-12-5 {
     width: calc(100% / 2 - 20px);
@@ -133,6 +143,58 @@
 
     #header {
     width: calc(100vw - 231px);
+  }
+
+  #sidebar .home {
+    border: block;
+  }
+
+  .font-size span {
+    display: block;
+  }
+
+  .playlist {
+    display: block;
+  }
+
+  .separator {
+    display: block;
+  }
+
+  .user .user-name{
+    display: block;
+  }
+
+  .sidebar-footer span {
+    display: block;
+  }
+
+  .footer-side .separator {
+    margin-left: 20px;
+    width: 190px;
+  }
+
+  .user .user-name {
+    margin-top: 10px;
+  }
+
+  .footer-left .icon-left {
+    display: initial;
+  }
+
+#sidebar .home {
+     border-left: 3px solid rgb(163, 255, 43);
+     margin-top: 30px;
+  }
+
+}
+
+/* MD SCREEN  */
+
+@media all and (width:770px) {
+
+  .logo {
+    width: 20%;
   }
 
 }
