@@ -106,6 +106,10 @@ main {
   right: 0;
 }
 
+#sidebar .logo-small {
+  display: none;
+}
+
 #header .header-btn {
   justify-content: flex-end;
   margin-top: 15px;

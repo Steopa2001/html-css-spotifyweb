@@ -1,1 +1,76 @@
 /* RESPONSIVE */
+
+/* MOBILE XS  */
+
+
+@media all and (min-width:550px) {
+
+
+  #sidebar {
+    width: 50px;
+    padding: 5px 0;
+  }
+
+  #sidebar .logo {
+    display: none;
+  }
+
+  #sidebar .logo-small {
+    display: block;
+    width: 18px;
+    margin-left: 18px;
+  }
+
+  .icon-sidebar {
+   margin-top: 5px;
+  }
+
+   .icon-sidebar i {
+   margin: 3px 0;
+  }
+
+  #sidebar .home {
+    border: none;
+  }
+
+  .font-size span {
+    display: none;
+  }
+
+  .playlist {
+    display: none;
+  }
+
+  .separator {
+    display: none;
+  }
+
+  .user .user-name{
+    display: none;
+  }
+
+  .sidebar-footer span {
+    display: none;
+  }
+
+  #sidebar .sidebar-footer img {
+    margin-top: 750px;
+  }
+
+  #sidebar .user img {
+    transform: scale(2);
+    margin-top: 10px;
+  }
+
+  #content {
+    width: 100%;
+  }
+
+  #header {
+    width: calc(100vw - 45px);
+  }
+
+  .main-menu .menu {
+  }
+
+}
