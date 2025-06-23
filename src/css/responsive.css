@@ -3,6 +3,98 @@
 /* MOBILE XS  */
 
 
+  #sidebar {
+    width: 55px;
+    padding: 5px 0;
+    position: relative;
+  }
+
+  #sidebar .logo {
+    display: none;
+  }
+
+  #sidebar .logo-small {
+    display: block;
+    width: 18px;
+    margin-left: 16px;
+  }
+
+  .icon-sidebar {
+   margin-top: 5px;
+  }
+
+   .icon-sidebar i {
+   margin: 3px 0;
+  }
+
+  #sidebar .home {
+    border: none;
+  }
+
+  .font-size span {
+    display: none;
+  }
+
+  .playlist {
+    display: none;
+  }
+
+  .separator {
+    display: none;
+  }
+
+  .user .user-name{
+    display: none;
+  }
+
+  .sidebar-footer span {
+    display: none;
+  }
+
+  #sidebar .footer-side {
+    position: absolute;
+    bottom: 20px;
+  }
+
+  #sidebar .user img {
+    transform: scale(2);
+    margin-top: 10px;
+  }
+
+  #content {
+    width: 100%;
+  }
+
+  #header {
+    width: calc(100vw - 50px);
+    position: fixed;
+    z-index: 1;
+  }
+
+ .padding-left-16 {
+  padding-left: 18px;
+ }
+
+
+  .main-menu ul {
+    flex-wrap: wrap;
+  }
+
+  .main-menu ul li {
+    margin-bottom: 30px;
+  }
+
+   .main-menu ul:nth-last-child(1) {
+    margin-top: 10px;
+   }
+
+  .col-12-5 {
+    width: calc(100% / 2 - 20px);
+  }
+
+
+  /* MOBILE XS  */
+  
 @media all and (min-width:350px) {
 
 
